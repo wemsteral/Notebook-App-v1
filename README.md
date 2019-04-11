@@ -30,7 +30,4 @@ I want to be able to search for all the notes with a specific tag
 A working notebook app with one class: Notebook.
 Users can create note, add tag, store note, view all notes or search by tag.
 
-My next steps with this project will be to transform a 'note' into a separate class
-from 'notebook'. My rationale behind this is improving scalability. It is likely that,
-as the project moves forward, notes may require a number of characteristics which will impact the
-quality of the current structure negatively.
+My next step with this project will be to transform a single 'note' into a separate class. This would improve scalability. It is likely that, if the project were to move forward, notes may require a number of characteristics. These changes would impair the quality of the current structure.
