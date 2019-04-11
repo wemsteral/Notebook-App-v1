@@ -15,13 +15,13 @@ class Notebook
 
   def add_note(note)
     @note = note
-    puts "tag?"
+    puts "Add tag:"
     @tag = gets.chomp
     store_entry
   end
 
   def search_by_tag
-    puts "enter tag:"
+    puts "Enter tag:"
     search_tag = gets.chomp.to_s
     @notes.each do |a|
       a.each do |b,c|
